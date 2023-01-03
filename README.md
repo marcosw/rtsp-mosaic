@@ -11,4 +11,5 @@ Hikvision:
 #rtsp://[usuario]:[senha]@[ip]:554/Streaming/Channels/102
 
 Execução:
-source execute_rtsp_mosaic.sh
+1) Crie um arquivo .env utilizando o arquivo .env.example com exemplo.
+2) Execute "source execute_rtsp_mosaic.sh"

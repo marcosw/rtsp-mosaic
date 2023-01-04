@@ -10,15 +10,15 @@ del all
 
 new ch1 broadcast enabled
 setup ch1 input $STREAM01
-setup ch1 output #mosaic-bridge{id=ch1,width=640,height=512}
+setup ch1 output #mosaic-bridge{id=ch1,width=640,height=540}
 
 new ch2 broadcast enabled
 setup ch2 input $STREAM02
-setup ch2 output #mosaic-bridge{id=ch2,width=640,height=512}
+setup ch2 output #mosaic-bridge{id=ch2,width=640,height=540}
 
 new ch3 broadcast enabled
 setup ch3 input $STREAM03
-setup ch3 output #mosaic-bridge{id=ch3,width=640,height=512}
+setup ch3 output #mosaic-bridge{id=ch3,width=640,height=540}
 
 new bg broadcast enabled
 # The following background file is simply a black picture with specified dimensions, you can create one with any image editor, like mspaint, it is required for proper mosaic size

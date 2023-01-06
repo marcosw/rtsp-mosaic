@@ -25,7 +25,7 @@ new bg broadcast enabled
 setup bg input "bg.jpg"
 setup bg option image-duration=-1
 
-setup bg option image-fps=25
+setup bg option image-fps=15
 setup bg option mosaic-width=1920
 setup bg option mosaic-height=1080
 setup bg option mosaic-keep-picture=1	
